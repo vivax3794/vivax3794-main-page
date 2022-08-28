@@ -48,6 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["npm-run-all", "npm:4.1.5"],\
             ["pinia", "virtual:fd6f6cc59ba6e9a94ff3c3ce8e822d55a5046797aba4ddf8333e8cd854cbeac0846970c75198889b9e9ac7dfa949506c0e4f8e8e3d8f52b9a03d0daffd096e84#npm:2.0.21"],\
             ["prettier", "npm:2.7.1"],\
+            ["sass", "npm:1.54.5"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"],\
             ["unplugin-auto-import", "virtual:fd6f6cc59ba6e9a94ff3c3ce8e822d55a5046797aba4ddf8333e8cd854cbeac0846970c75198889b9e9ac7dfa949506c0e4f8e8e3d8f52b9a03d0daffd096e84#npm:0.11.2"],\
             ["unplugin-vue-components", "virtual:fd6f6cc59ba6e9a94ff3c3ce8e822d55a5046797aba4ddf8333e8cd854cbeac0846970c75198889b9e9ac7dfa949506c0e4f8e8e3d8f52b9a03d0daffd096e84#npm:0.22.4"],\
@@ -3126,6 +3127,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["immutable", [\
+        ["npm:4.1.0", {\
+          "packageLocation": "./.yarn/cache/immutable-npm-4.1.0-f6635927b8-b9bc1f14fb.zip/node_modules/immutable/",\
+          "packageDependencies": [\
+            ["immutable", "npm:4.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["import-fresh", [\
         ["npm:3.3.0", {\
           "packageLocation": "./.yarn/cache/import-fresh-npm-3.3.0-3e34265ca9-2cacfad06e.zip/node_modules/import-fresh/",\
@@ -3781,6 +3791,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["npm-run-all", "npm:4.1.5"],\
             ["pinia", "virtual:fd6f6cc59ba6e9a94ff3c3ce8e822d55a5046797aba4ddf8333e8cd854cbeac0846970c75198889b9e9ac7dfa949506c0e4f8e8e3d8f52b9a03d0daffd096e84#npm:2.0.21"],\
             ["prettier", "npm:2.7.1"],\
+            ["sass", "npm:1.54.5"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"],\
             ["unplugin-auto-import", "virtual:fd6f6cc59ba6e9a94ff3c3ce8e822d55a5046797aba4ddf8333e8cd854cbeac0846970c75198889b9e9ac7dfa949506c0e4f8e8e3d8f52b9a03d0daffd096e84#npm:0.11.2"],\
             ["unplugin-vue-components", "virtual:fd6f6cc59ba6e9a94ff3c3ce8e822d55a5046797aba4ddf8333e8cd854cbeac0846970c75198889b9e9ac7dfa949506c0e4f8e8e3d8f52b9a03d0daffd096e84#npm:0.22.4"],\
@@ -4471,6 +4482,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/safer-buffer-npm-2.1.2-8d5c0b705e-cab8f25ae6.zip/node_modules/safer-buffer/",\
           "packageDependencies": [\
             ["safer-buffer", "npm:2.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["sass", [\
+        ["npm:1.54.5", {\
+          "packageLocation": "./.yarn/cache/sass-npm-1.54.5-10d3626035-ba7a65aa75.zip/node_modules/sass/",\
+          "packageDependencies": [\
+            ["sass", "npm:1.54.5"],\
+            ["chokidar", "npm:3.5.3"],\
+            ["immutable", "npm:4.1.0"],\
+            ["source-map-js", "npm:1.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5228,7 +5251,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.16"],\
             ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"],\
             ["rollup", "npm:2.77.3"],\
-            ["sass", null],\
+            ["sass", "npm:1.54.5"],\
             ["stylus", null],\
             ["terser", null]\
           ],\
