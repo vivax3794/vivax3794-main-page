@@ -12,17 +12,16 @@
   </h1>
   <p>I am vivax, I do programming!</p>
   <div id="cards">
-    <n-grid :x-gap="100" :cols="2">
+    <n-grid :x-gap="100" :y-gap="50" :cols="3">
       <n-grid-item>
-        <n-card>
+        <n-card class="large_card">
           <h2 class="no_margin">Languages</h2>
-          TODO: Make these link to projects once that page is made
           <ul>
             <li id="python" class="list_item">
               <img src="../assets/python-logo.png" class="logo" />Python
             </li>
-            <li id="rust" class="list_item">
-              <img src="../assets/rust-logo.svg" class="logo" />Rust
+            <li id="rust" class="list_item" >
+              <img src="../assets/rust-logo.svg" class="logo" :style="{filter: 'invert(100%)'}"/>Rust
             </li>
             <li id="typescript" class="list_item">
               <img src="../assets/ts-logo-128.png" class="logo" />Typescript
@@ -31,7 +30,17 @@
         </n-card>
       </n-grid-item>
       <n-grid-item>
-        <n-card>
+        <n-card class="large_card">
+          <h2 class="no_margin">Tech</h2>
+          <ul>
+            <li><a class="list_item" id="vue"><img src="../assets/vue.png" class="logo"/>Vue</a></li>
+            <li><a class="list_item" id="tauri"><img src="../assets/tauri-logo.png" class="logo"/>Tauri</a></li>
+            <li><a class="list_item" id="mongodb">MongoDB</a></li>
+          </ul>
+        </n-card>
+      </n-grid-item>
+      <n-grid-item>
+        <n-card class="large_card">
           <h2 class="no_margin">Socials</h2>
           <ul>
             <li>
@@ -57,8 +66,7 @@
                 href="https://www.codingame.com/profile/77e99ab38d5b1d335bbebafa23edbdd66293053"
                 class="list_item"
                 id="codingame"
-              >
-                <img src="../assets/codingame-logo.png" class="logo" />Codingame
+              >Codingame
               </a>
             </li>
           </ul>
@@ -75,6 +83,9 @@
   $width: 70%
   width: $width
   margin-left: math.div(100% - $width, 2)
+
+#info_card
+  width: 1000px
 
 .no_margin
   margin-bottom: 0px
@@ -140,4 +151,13 @@ a:visited
 
 #codingame:hover
   color: #fcd207
+
+#vue:hover
+  color: #41b883
+
+#tauri:hover
+  color: #25d3e8
+
+#mongodb:hover
+  color: #3fa037
 </style>
