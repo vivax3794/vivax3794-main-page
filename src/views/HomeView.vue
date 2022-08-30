@@ -17,18 +17,28 @@
         <n-card>
           <h2 class="no_margin">Languages</h2>
           <ul>
-            <li id="python" class="list_item">
-              <img src="../assets/python-logo.png" class="logo" />Python
+            <li>
+              <RouterLink to="/projects#python" id="python" class="list_item">
+                <img src="../assets/python-logo.png" class="logo" />Python
+              </RouterLink>
             </li>
-            <li id="rust" class="list_item">
-              <img
-                src="../assets/rust-logo.svg"
-                class="logo"
-                :style="{ filter: 'invert(100%)' }"
-              />Rust
+            <li>
+              <RouterLink to="/projects#rust" id="rust" class="list_item">
+                <img
+                  src="../assets/rust-logo.svg"
+                  class="logo"
+                  :style="{ filter: 'invert(100%)' }"
+                />Rust
+              </RouterLink>
             </li>
-            <li id="typescript" class="list_item">
-              <img src="../assets/ts-logo-128.png" class="logo" />Typescript
+            <li>
+              <RouterLink
+                to="/projects#typescript"
+                id="typescript"
+                class="list_item"
+              >
+                <img src="../assets/ts-logo-128.png" class="logo" />Typescript
+              </RouterLink>
             </li>
           </ul>
         </n-card>
@@ -38,14 +48,18 @@
           <h2 class="no_margin">Tech</h2>
           <ul>
             <li>
-              <a class="list_item" id="vue"
-                ><img src="../assets/vue.png" class="logo" />Vue</a
-              >
+              <RouterLink to="/projects#vue">
+                <a class="list_item" id="vue"
+                  ><img src="../assets/vue.png" class="logo" />Vue</a
+                >
+              </RouterLink>
             </li>
             <li>
-              <a class="list_item" id="tauri"
-                ><img src="../assets/tauri-logo.png" class="logo" />Tauri</a
-              >
+              <RouterLink to="/projects#tauri">
+                <a class="list_item" id="tauri"
+                  ><img src="../assets/tauri-logo.png" class="logo" />Tauri</a
+                >
+              </RouterLink>
             </li>
             <li><a class="list_item" id="mongodb">MongoDB</a></li>
           </ul>
@@ -78,7 +92,7 @@
                 href="https://www.codingame.com/profile/77e99ab38d5b1d335bbebafa23edbdd66293053"
                 class="list_item"
                 id="codingame"
-                >Codingame
+                >CodinGame
               </a>
             </li>
           </ul>

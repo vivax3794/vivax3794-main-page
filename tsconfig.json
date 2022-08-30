@@ -13,11 +13,12 @@
         "./src/*"
       ]
     },
+    "lib": ["es2022"]
   },
   "references": [
     {
       "path": "./tsconfig.config.json"
     }
   ],
-  "jsx": "preserve"
+  "jsx": "preserve",
 }
