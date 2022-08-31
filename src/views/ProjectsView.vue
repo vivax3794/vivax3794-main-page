@@ -48,6 +48,11 @@ const categories: { [category: string]: Project[] } = {
       description:
         "Discord bot made in python for playing fun games with friends.",
     },
+    {
+      name: "vivcord",
+      link: "https://github.com/vivax3794/vivcord",
+      description: "Discord api wrapper.",
+    },
   ],
   Rust: [
     {
@@ -73,7 +78,7 @@ const categories: { [category: string]: Project[] } = {
   ],
   Tauri: [
     {
-      name: "Supercharged-start",
+      name: "Supercharged-stars",
       link: "https://github.com/vivax3794/supercharged-stars",
       description:
         "Special drawing program for a twitch streamers drawing game, using tauri and vue. Includes custom implementation of k-means for loading images.",
