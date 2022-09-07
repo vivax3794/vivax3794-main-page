@@ -30,4 +30,5 @@ coverage
 # Yarn
 .yarn/cache
 .pnp.*
-.yarn/unpl
+.yarn/unplugged
+
