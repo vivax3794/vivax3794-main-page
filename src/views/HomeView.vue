@@ -19,13 +19,13 @@
           <ul>
             <li>
               <RouterLink to="/projects#python" id="python" class="list_item">
-                <img src="../assets/python-logo.png" class="logo" />Python
+                <img src="/imgs/python-logo.png" class="logo" />Python
               </RouterLink>
             </li>
             <li>
               <RouterLink to="/projects#rust" id="rust" class="list_item">
                 <img
-                  src="../assets/rust-logo.svg"
+                  src="/imgs//rust-logo.svg"
                   class="logo"
                   :style="{ filter: 'invert(100%)' }"
                 />Rust
@@ -37,7 +37,7 @@
                 id="typescript"
                 class="list_item"
               >
-                <img src="../assets/ts-logo-128.png" class="logo" />Typescript
+                <img src="/imgs//ts-logo-128.png" class="logo" />Typescript
               </RouterLink>
             </li>
           </ul>
@@ -50,14 +50,14 @@
             <li>
               <RouterLink to="/projects#vue">
                 <a class="list_item" id="vue"
-                  ><img src="../assets/vue.png" class="logo" />Vue</a
+                  ><img src="/imgs//vue.png" class="logo" />Vue</a
                 >
               </RouterLink>
             </li>
             <li>
               <RouterLink to="/projects#tauri">
                 <a class="list_item" id="tauri"
-                  ><img src="../assets/tauri-logo.png" class="logo" />Tauri</a
+                  ><img src="/imgs//tauri-logo.png" class="logo" />Tauri</a
                 >
               </RouterLink>
             </li>
@@ -75,7 +75,7 @@
                 class="list_item"
                 id="twitch"
               >
-                <img src="../assets/twitch-logo.jpg" class="logo" />Twitch
+                <img src="/imgs//twitch-logo.jpg" class="logo" />Twitch
               </a>
             </li>
             <li>
@@ -84,7 +84,7 @@
                 class="list_item"
                 id="github"
               >
-                <img src="../assets/github-logo.png" class="logo" />Github
+                <img src="/imgs//github-logo.png" class="logo" />Github
               </a>
             </li>
             <li>

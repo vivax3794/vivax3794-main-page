@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@cloudflare/workers-types", "npm:3.16.0"],\
             ["@rushstack/eslint-patch", "npm:1.1.4"],\
             ["@types/node", "npm:16.11.56"],\
             ["@vicons/ionicons5", "npm:0.12.0"],\
@@ -49,7 +50,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["pinia", "virtual:fd6f6cc59ba6e9a94ff3c3ce8e822d55a5046797aba4ddf8333e8cd854cbeac0846970c75198889b9e9ac7dfa949506c0e4f8e8e3d8f52b9a03d0daffd096e84#npm:2.0.21"],\
             ["prettier", "npm:2.7.1"],\
             ["sass", "npm:1.54.5"],\
-            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=a1c5e5"],\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"],\
             ["unplugin-auto-import", "virtual:fd6f6cc59ba6e9a94ff3c3ce8e822d55a5046797aba4ddf8333e8cd854cbeac0846970c75198889b9e9ac7dfa949506c0e4f8e8e3d8f52b9a03d0daffd096e84#npm:0.11.2"],\
             ["unplugin-vue-components", "virtual:fd6f6cc59ba6e9a94ff3c3ce8e822d55a5046797aba4ddf8333e8cd854cbeac0846970c75198889b9e9ac7dfa949506c0e4f8e8e3d8f52b9a03d0daffd096e84#npm:0.22.4"],\
             ["vite", "virtual:fd6f6cc59ba6e9a94ff3c3ce8e822d55a5046797aba4ddf8333e8cd854cbeac0846970c75198889b9e9ac7dfa949506c0e4f8e8e3d8f52b9a03d0daffd096e84#npm:3.0.9"],\
@@ -518,6 +519,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@cloudflare/workers-types", [\
+        ["npm:3.16.0", {\
+          "packageLocation": "./.yarn/cache/@cloudflare-workers-types-npm-3.16.0-ce81f176dd-5fad4d7e5b.zip/node_modules/@cloudflare/workers-types/",\
+          "packageDependencies": [\
+            ["@cloudflare/workers-types", "npm:3.16.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@css-render/plugin-bem", [\
         ["npm:0.15.11", {\
           "packageLocation": "./.yarn/cache/@css-render-plugin-bem-npm-0.15.11-71d4d4d96c-835370f343.zip/node_modules/@css-render/plugin-bem/",\
@@ -866,7 +876,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["regexpp", "npm:3.2.0"],\
             ["semver", "npm:7.3.7"],\
             ["tsutils", "virtual:a3bf231167e5cddccb7e99cacff0edbf2a06d3b25fea398c2ebf2515c81abe973c0f03ebee81df644ce88cdde207426438c1dbe5fd396eaec09da0f8362b27bc#npm:3.21.0"],\
-            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=a1c5e5"]\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -898,7 +908,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/typescript-estree", "virtual:ee30b3fc4134423975a2f9c4f32017d444d00cc960d8bd6eaea329f1c4585e2fa54fa179cc1b1ba476a8c87d9d69683dd40f449e256f06c0d784b0f05039832b#npm:5.35.1"],\
             ["debug", "virtual:f9e7aea43ca42314d3470c44ab17df011557f35698afb82b0374b0272b65f4374a2581351dee7034a65ea18723b5236b442b101f8c108fefb6d0f082cfcb4244#npm:4.3.4"],\
             ["eslint", "npm:8.23.0"],\
-            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=a1c5e5"]\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -938,7 +948,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["debug", "virtual:f9e7aea43ca42314d3470c44ab17df011557f35698afb82b0374b0272b65f4374a2581351dee7034a65ea18723b5236b442b101f8c108fefb6d0f082cfcb4244#npm:4.3.4"],\
             ["eslint", "npm:8.23.0"],\
             ["tsutils", "virtual:a3bf231167e5cddccb7e99cacff0edbf2a06d3b25fea398c2ebf2515c81abe973c0f03ebee81df644ce88cdde207426438c1dbe5fd396eaec09da0f8362b27bc#npm:3.21.0"],\
-            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=a1c5e5"]\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -998,7 +1008,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-glob", "npm:4.0.3"],\
             ["semver", "npm:7.3.7"],\
             ["tsutils", "virtual:a3bf231167e5cddccb7e99cacff0edbf2a06d3b25fea398c2ebf2515c81abe973c0f03ebee81df644ce88cdde207426438c1dbe5fd396eaec09da0f8362b27bc#npm:3.21.0"],\
-            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=a1c5e5"]\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
           ],\
           "packagePeers": [\
             "@types/typescript",\
@@ -1317,7 +1327,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:d9e6661029e6756910981cfed8328cdb7c948470bc19259fcc1431c2ead6602d4c2e2be79b0cfe4f99c9eb9244a5eb7f93350f9245244178b1dc77b25f2201f4#npm:5.35.1"],\
             ["eslint", "npm:8.23.0"],\
             ["eslint-plugin-vue", "virtual:fd6f6cc59ba6e9a94ff3c3ce8e822d55a5046797aba4ddf8333e8cd854cbeac0846970c75198889b9e9ac7dfa949506c0e4f8e8e3d8f52b9a03d0daffd096e84#npm:9.4.0"],\
-            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=a1c5e5"],\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"],\
             ["vue-eslint-parser", "virtual:d9e6661029e6756910981cfed8328cdb7c948470bc19259fcc1431c2ead6602d4c2e2be79b0cfe4f99c9eb9244a5eb7f93350f9245244178b1dc77b25f2201f4#npm:9.0.3"]\
           ],\
           "packagePeers": [\
@@ -3776,6 +3786,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["mywebsite", "workspace:."],\
+            ["@cloudflare/workers-types", "npm:3.16.0"],\
             ["@rushstack/eslint-patch", "npm:1.1.4"],\
             ["@types/node", "npm:16.11.56"],\
             ["@vicons/ionicons5", "npm:0.12.0"],\
@@ -3792,7 +3803,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["pinia", "virtual:fd6f6cc59ba6e9a94ff3c3ce8e822d55a5046797aba4ddf8333e8cd854cbeac0846970c75198889b9e9ac7dfa949506c0e4f8e8e3d8f52b9a03d0daffd096e84#npm:2.0.21"],\
             ["prettier", "npm:2.7.1"],\
             ["sass", "npm:1.54.5"],\
-            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=a1c5e5"],\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"],\
             ["unplugin-auto-import", "virtual:fd6f6cc59ba6e9a94ff3c3ce8e822d55a5046797aba4ddf8333e8cd854cbeac0846970c75198889b9e9ac7dfa949506c0e4f8e8e3d8f52b9a03d0daffd096e84#npm:0.11.2"],\
             ["unplugin-vue-components", "virtual:fd6f6cc59ba6e9a94ff3c3ce8e822d55a5046797aba4ddf8333e8cd854cbeac0846970c75198889b9e9ac7dfa949506c0e4f8e8e3d8f52b9a03d0daffd096e84#npm:0.22.4"],\
             ["vite", "virtual:fd6f6cc59ba6e9a94ff3c3ce8e822d55a5046797aba4ddf8333e8cd854cbeac0846970c75198889b9e9ac7dfa949506c0e4f8e8e3d8f52b9a03d0daffd096e84#npm:3.0.9"],\
@@ -4208,7 +4219,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/vue__composition-api", null],\
             ["@vue/composition-api", null],\
             ["@vue/devtools-api", "npm:6.2.1"],\
-            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=a1c5e5"],\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"],\
             ["vue", "npm:3.2.37"],\
             ["vue-demi", "virtual:fd2ac10990bc10f1927e90138bcc87ed6a90fe1c2c28a2a14c792ccd91a6d982017a6ff52d14d634cfc6bc6aec2b027cd3f8f8354c0587b46bc3fc70d5c56cc9#npm:0.13.11"]\
           ],\
@@ -4938,7 +4949,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tsutils", "virtual:a3bf231167e5cddccb7e99cacff0edbf2a06d3b25fea398c2ebf2515c81abe973c0f03ebee81df644ce88cdde207426438c1dbe5fd396eaec09da0f8362b27bc#npm:3.21.0"],\
             ["@types/typescript", null],\
             ["tslib", "npm:1.14.1"],\
-            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=a1c5e5"]\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
           ],\
           "packagePeers": [\
             "@types/typescript",\
@@ -4981,10 +4992,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["typescript", [\
-        ["patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=a1c5e5", {\
-          "packageLocation": "./.yarn/cache/typescript-patch-56273a7c66-9096d8f6c1.zip/node_modules/typescript/",\
+        ["patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af", {\
+          "packageLocation": "./.yarn/cache/typescript-patch-fc259c5d56-9096d8f6c1.zip/node_modules/typescript/",\
           "packageDependencies": [\
-            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=a1c5e5"]\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5398,7 +5409,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/typescript", null],\
             ["@volar/vue-language-core", "npm:0.39.5"],\
             ["@volar/vue-typescript", "npm:0.39.5"],\
-            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=a1c5e5"]\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
           ],\
           "packagePeers": [\
             "@types/typescript",\
@@ -8488,8 +8499,7 @@ class VirtualFS extends ProxiedFS {
   }
 }
 
-const ZIP_MASK = 4278190080;
-const ZIP_MAGIC = 704643072;
+const ZIP_FD = 2147483648;
 const getArchivePart = (path, extension) => {
   let idx = path.indexOf(extension);
   if (idx <= 0)
@@ -8566,7 +8576,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     return this.baseFs.resolve(p);
   }
   remapFd(zipFs, fd) {
-    const remappedFd = this.nextFd++ | ZIP_MAGIC;
+    const remappedFd = this.nextFd++ | ZIP_FD;
     this.fdMap.set(remappedFd, [zipFs, fd]);
     return remappedFd;
   }
@@ -8603,7 +8613,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     });
   }
   async readPromise(fd, buffer, offset, length, position) {
-    if ((fd & ZIP_MASK) !== ZIP_MAGIC)
+    if ((fd & ZIP_FD) === 0)
       return await this.baseFs.readPromise(fd, buffer, offset, length, position);
     const entry = this.fdMap.get(fd);
     if (typeof entry === `undefined`)
@@ -8612,7 +8622,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     return await zipFs.readPromise(realFd, buffer, offset, length, position);
   }
   readSync(fd, buffer, offset, length, position) {
-    if ((fd & ZIP_MASK) !== ZIP_MAGIC)
+    if ((fd & ZIP_FD) === 0)
       return this.baseFs.readSync(fd, buffer, offset, length, position);
     const entry = this.fdMap.get(fd);
     if (typeof entry === `undefined`)
@@ -8621,7 +8631,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     return zipFs.readSync(realFd, buffer, offset, length, position);
   }
   async writePromise(fd, buffer, offset, length, position) {
-    if ((fd & ZIP_MASK) !== ZIP_MAGIC) {
+    if ((fd & ZIP_FD) === 0) {
       if (typeof buffer === `string`) {
         return await this.baseFs.writePromise(fd, buffer, offset);
       } else {
@@ -8639,7 +8649,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     }
   }
   writeSync(fd, buffer, offset, length, position) {
-    if ((fd & ZIP_MASK) !== ZIP_MAGIC) {
+    if ((fd & ZIP_FD) === 0) {
       if (typeof buffer === `string`) {
         return this.baseFs.writeSync(fd, buffer, offset);
       } else {
@@ -8657,7 +8667,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     }
   }
   async closePromise(fd) {
-    if ((fd & ZIP_MASK) !== ZIP_MAGIC)
+    if ((fd & ZIP_FD) === 0)
       return await this.baseFs.closePromise(fd);
     const entry = this.fdMap.get(fd);
     if (typeof entry === `undefined`)
@@ -8667,7 +8677,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     return await zipFs.closePromise(realFd);
   }
   closeSync(fd) {
-    if ((fd & ZIP_MASK) !== ZIP_MAGIC)
+    if ((fd & ZIP_FD) === 0)
       return this.baseFs.closeSync(fd);
     const entry = this.fdMap.get(fd);
     if (typeof entry === `undefined`)
@@ -8763,7 +8773,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     });
   }
   async fstatPromise(fd, opts) {
-    if ((fd & ZIP_MASK) !== ZIP_MAGIC)
+    if ((fd & ZIP_FD) === 0)
       return this.baseFs.fstatPromise(fd, opts);
     const entry = this.fdMap.get(fd);
     if (typeof entry === `undefined`)
@@ -8772,7 +8782,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     return zipFs.fstatPromise(realFd, opts);
   }
   fstatSync(fd, opts) {
-    if ((fd & ZIP_MASK) !== ZIP_MAGIC)
+    if ((fd & ZIP_FD) === 0)
       return this.baseFs.fstatSync(fd, opts);
     const entry = this.fdMap.get(fd);
     if (typeof entry === `undefined`)
@@ -8795,7 +8805,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     });
   }
   async fchmodPromise(fd, mask) {
-    if ((fd & ZIP_MASK) !== ZIP_MAGIC)
+    if ((fd & ZIP_FD) === 0)
       return this.baseFs.fchmodPromise(fd, mask);
     const entry = this.fdMap.get(fd);
     if (typeof entry === `undefined`)
@@ -8804,7 +8814,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     return zipFs.fchmodPromise(realFd, mask);
   }
   fchmodSync(fd, mask) {
-    if ((fd & ZIP_MASK) !== ZIP_MAGIC)
+    if ((fd & ZIP_FD) === 0)
       return this.baseFs.fchmodSync(fd, mask);
     const entry = this.fdMap.get(fd);
     if (typeof entry === `undefined`)
@@ -9125,7 +9135,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     });
   }
   async ftruncatePromise(fd, len) {
-    if ((fd & ZIP_MASK) !== ZIP_MAGIC)
+    if ((fd & ZIP_FD) === 0)
       return this.baseFs.ftruncatePromise(fd, len);
     const entry = this.fdMap.get(fd);
     if (typeof entry === `undefined`)
@@ -9134,7 +9144,7 @@ class ZipOpenFS extends BasePortableFakeFS {
     return zipFs.ftruncatePromise(realFd, len);
   }
   ftruncateSync(fd, len) {
-    if ((fd & ZIP_MASK) !== ZIP_MAGIC)
+    if ((fd & ZIP_FD) === 0)
       return this.baseFs.ftruncateSync(fd, len);
     const entry = this.fdMap.get(fd);
     if (typeof entry === `undefined`)

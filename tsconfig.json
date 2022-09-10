@@ -6,6 +6,7 @@
     "src/**/*.vue",
     "components.d.ts",
   ],
+  "exclude": ["functions/**/*"],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {

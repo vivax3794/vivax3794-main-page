@@ -357,6 +357,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@cloudflare/workers-types@npm:^3.16.0":
+  version: 3.16.0
+  resolution: "@cloudflare/workers-types@npm:3.16.0"
+  checksum: 5fad4d7e5b495e299b8b037043ee406a4e6aadc533e90d2a87009934cd82e1072710264451c5fefc3b71502bbf659f9b1f530f2fcceeaa036704da605194f4f6
+  languageName: node
+  linkType: hard
+
 "@css-render/plugin-bem@npm:^0.15.10":
   version: 0.15.11
   resolution: "@css-render/plugin-bem@npm:0.15.11"
@@ -3056,6 +3063,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "mywebsite@workspace:."
   dependencies:
+    "@cloudflare/workers-types": ^3.16.0
     "@rushstack/eslint-patch": ^1.1.4
     "@types/node": ^16.11.47
     "@vicons/ionicons5": ^0.12.0
@@ -4105,7 +4113,7 @@ __metadata:
 
 "typescript@patch:typescript@~4.7.4#~builtin<compat/typescript>":
   version: 4.7.4
-  resolution: "typescript@patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=a1c5e5"
+  resolution: "typescript@patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
