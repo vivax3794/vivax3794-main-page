@@ -28,7 +28,7 @@ coverage
 *.sw?
 
 # Yarn
-.yarn/cache
-.pnp.*
-.yarn/unplugged
+# .yarn/cache
+# .pnp.*
+# .yarn/unplugged
 
